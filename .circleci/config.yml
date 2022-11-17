@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.19
-    working_directory: /go/src/github.com/laioffer/Around
+    working_directory: /go/src/github.com/ymjian41/Around_Project
     steps:
       - checkout
       - setup_remote_docker
